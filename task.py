@@ -194,7 +194,8 @@ def build_robots_based_on_csv_file():
         # Archive Receipts            
         zip = Archive()
         zip.archive_folder_with_zip(
-            os.path.join(".","output","receipts"), "receipts.zip"
+            os.path.join(".","output","receipts"),
+            os.path.join(".","output","receipts.zip")
         )      
 
     # Teardown
